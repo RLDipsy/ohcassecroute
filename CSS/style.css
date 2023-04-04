@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap');
+
+body, html{
+    	margin: 0px;
+    	padding: 0px;
+		background: #404040;
+}
+*{
+	box-sizing: border-box;
+}
+p,h1,h2,h3,a,label,span,select,input{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+/*------- HEADER -------*/
+header{
+	width: 100%;
+	margin-bottom: 50px;
+}
+header nav{
+	display: flex;
+	justify-content: center;
+}
+
+header nav .btn-gamme{
+	width: 200px;
+	height: 50px;
+	border: 2px solid orange;
+	background-color: transparent;
+	color: orange;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 10px 25px;
+}
+header nav .btn-gamme:hover{
+	background-color: orange;
+	color: white;
+}
+/*------- INNER -------*/
+#inner{
+	display: flex;
+	justify-content: space-between;
+}
+/*------- GESTION -------*/
+#inner #gestion{
+	width: 48vw;
+}
+#etape-1 h1{
+	background-color: #2c2c2c;
+	margin: 0;
+	padding: 5px 20px;
+	font-size:24px;
+}
+/* MODULE */
+/* Général */
+#gestion #etape-1 .etape1-part #form-module{
+	display: flex;
+	flex-direction: column;
+}
+#gestion #etape-1 .etape1-part #form-module div{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	height: 30px;
+}
+#etape-1 .etape1-part #form-module select{
+	width: 80px;
+	height: 30px;
+	margin-right: 50px;
+	background-color: orange;
+	border: none;
+	outline: none;
+}
+#etape-1 .etape1-part #form-module input{
+	box-sizing: border-box;
+	padding: 0 6px;
+	border-radius: 2px;
+	width: 80px;
+	height: 20px;
+	background-color: orange;
+	border: none;
+	outline: none;
+	text-align: center;
+	/* border-bottom: 1px solid white; */
+	background-color: rgb(255, 153, 0);
+}
+/* Spécifiques */
+/* module */
+#gestion #etape-1 #module #form-module div{
+	background-color: orange;
+}
+#etape-1 #module #form-module select{
+	background-color: orange;
+}
+/* options module */
+#gestion #etape-1 #optn-module #form-module div{
+	background-color: rgb(255, 187, 0);
+}
+#etape-1 #optn-module #form-module select{
+	background-color: rgb(255, 187, 0);
+}
+/* extra module */
+#gestion #etape-1 #extra-module #form-module div{
+	background-color: orange;
+}
+#etape-1 #extra-module div:nth-child(1) input{
+	margin: 6px 50px 3px 0;
+}
+#etape-1 #extra-module div:nth-child(2) input{
+	margin: 4px 50px 4px 0;
+}
+#etape-1 #extra-module div:nth-child(3) input{
+	margin: 3px 50px 6px 0;
+}
+
+
+/* OPTIONS MODULE */
+
+option{
+	background-color: #404040;
+	border: 1px solid orange;
+}
+label{
+	height: 20px;
+	margin: auto 0;
+}
+/*------- RESULTAT DONNEES -------*/
+
+#result-donnees{
+	width: 48vw;
+}
+
+#result-donnees #result-etape-1{
+	display: flex;
+	flex-direction: column;
+}
+#result-donnees #result-etape-1 .etape1-part div{
+	display: flex;
+}
+#result-etape-1 .etape1-part div p,h3{
+	margin: 10px;
+}
+#result-donnees #result-etape-1 h1{
+	background-color: #2c2c2c;
+	margin: 0;
+	padding: 5px 10px;
+	font-size:24px;
+}
+#result-etape-1 #result-module div{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 20px;
+}
+#result-donnees #result-etape-1 h3{
+	font-size: 16px;
+	font-weight: 400;
+}
+/* RESULTAT MODULE */
+#result-donnees #result-etape-1 #result-module{
+	height: 90px;
+	background-color: rgb(255, 94, 0);
+}
+#result-module div{
+	height: 30px;
+}
+#result-module div:nth-child(1){
+
+}
+#result-module div:nth-child(2){
+	
+}
+#result-module div:nth-child(3){
+	
+}
+/* RESULTAT OPTION MODULE */
+#result-donnees #result-etape-1 #optn-module{
+	height: 120px;
+	background-color: rgb(255, 153, 0);
+}
+#optn-module span{
+	width: 80px;
+	background-color: rgb(255, 166, 0);
+	text-align: center;
+	margin: auto 0;
+	padding: 6px 0;
+}
+#optn-module div{
+	height: 30px;
+}
+#optn-module div:nth-child(1){
+
+}
+#optn-module div:nth-child(2){
+	
+}
+#optn-module div:nth-child(3){
+	
+}
+/* RESULTAT EXTRA MODULE */
+#result-donnees #result-etape-1 #extra-module{
+	height: 90px;
+	background-color: rgb(255, 94, 0);
+}

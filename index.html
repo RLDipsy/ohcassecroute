@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/jslogo.png">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+    <body>
+        <header>
+            <nav>
+                <button id="btn-sol-izzy" class="btn-gamme">Sol izzy</button>
+                <button id="btn-sol-me" class="btn-gamme">Sol me</button>
+                <button id="btn-sol-design" class="btn-gamme">Sol design</button>
+            </nav>
+        </header>
+        <section id="inner">
+            <!-- GESTION -->
+            <section id="gestion">
+                    <!-- ETAPE 1 -->
+                    <div id="etape-1">
+                        <h1>Etape 1 : Module</h1>
+                        <!-- CONFIG MODULE -->
+                        <div id="module" class="etape1-part">
+                            <form action="" id="form-module">
+                                <div>
+                                    <label for="nb-module">Nombre de module</label>
+                                    <select id="nb-module" name="nb-module">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="largeur-module">Largeur</label>
+                                    <select id="largeur-module" name="largeur-module">
+                                        <option value="3200">3200</option>
+                                        <option value="3600">3600</option>
+                                        <option value="4000">4000</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="profondeur-module">Profondeur</label>
+                                    <select id="profondeur-module" name="profondeur-module">
+                                        <option value="3200">3200</option>
+                                        <option value="3600">3600</option>
+                                        <option value="4000">4000</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- OPTION MODULE -->
+                        <div id="optn-module" class="etape1-part">
+                            <form action="" id="form-module">
+                                <div>
+                                    <label for="cache-elec">Cache ELEC</label>
+                                    <select id="inp-cache-elec" name="cache-elec">
+                                        <option value="Non">Non</option>
+                                        <option value="Oui">Oui</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="Solin">Solin</label>
+                                    <select id="inp-solin" name="Solin">
+                                        <option value="Non">Non</option>
+                                        <option value="Oui">Oui</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="poteaux-150">Poteaux 150</label>
+                                    <select id="inp-poteaux-150" name="poteaux-150">
+                                        <option value="Non">Non</option>
+                                        <option value="Oui">Oui</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="auto-portee">Autoportée</label>
+                                    <select id="inp-autoportee" name="auto-portee">
+                                        <option value="Non">Non</option>
+                                        <option value="Oui">Oui</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- EXTRA MODULE -->
+                        <div id="extra-module" class="etape1-part">
+                            <form action="" id="form-module">
+                                <div>
+                                    <label for="coefficient-vente">Coéfficient de vente</label>
+                                    <input type="text" id="inp-coeff-vente" name="coefficient-vente">
+                                </div>
+                                <div>
+                                    <label for="pose">Pose</label>
+                                    <input type="text" id="inp-pose" name="pose">
+                                </div>
+                                <div>
+                                    <label for="transport">Transport</label>
+                                    <input type="text" id="inp-transport" name="transport">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="etape-2">
+    
+                    </div>
+                    <div id="etape-3">
+    
+                    </div>               
+            </section>
+            <section id="result-donnees">
+                    <!-- ETAPE 1 -->
+                    <div id="result-etape-1">
+                        <h1>Données financières</h1>
+                        <!-- CONFIG MODULE -->
+                        <div id="result-module" class="etape1-part">
+                            <div>
+                                <h3>Remise Agence</h3>
+                                <p>0,405</p>
+                            </div>
+                            <div>
+                                <h3>Tarif public HT</h3>
+                                <p>15</p>
+                            </div>
+                            <div> 
+                                <h3>Surface</h3>
+                                <p>30</p>
+                            </div>                           
+                        </div>
+                        <!-- OPTION MODULE -->
+                        <div id="optn-module" class="etape1-part">
+                            <div>
+                                <span>1</span>
+                                <p>34346</p>
+                            </div>
+                            <div>
+                                <span>1</span>
+                                <p>457475</p>
+                            </div>
+                            <div> 
+                                <span>1</span>
+                                <p>467</p>
+                            </div>
+                            <div>
+                                <span>1</span>
+                                <p>475</p>
+                            </div>
+                        </div>
+                        <!-- EXTRA MODULE -->
+                        <div id="extra-module" class="etape1-part">
+                            <p>1</p>
+                            <p>475</p>
+                        </div>
+                    </div>
+                    <div id="etape-2">
+    
+                    </div>
+                    <div id="etape-3">
+    
+                    </div>
+            </section>
+        </section>
+        
+        <script src="JS/app.js"></script>
+        <script src="JS/calculTarifStructure.js"></script>
+
+    </body>
+    </html>
